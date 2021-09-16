@@ -1,0 +1,15 @@
+#sec-1d34 {
+    transition: 0.3s;
+}
+#sec-1d34.nav-sticky {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.945);
+    animation: goDown 0.5s ease;  
+}
+@keyframes goDown {
+    from {
+        transform: translateY(-100%);
+    } to {
+        transform: translate(0)
+    }
+}
