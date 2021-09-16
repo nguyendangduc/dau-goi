@@ -3,8 +3,16 @@
 }
 #sec-1d34.nav-sticky {
     position: fixed;
+  
     background-color: rgba(255, 255, 255, 0.945);
-    animation: goDown 0.5s ease;  
+    animation: goDown 0.52s ease;  
+}
+#sec-1d34 .u-logo-image-1 {
+    transition: 0.3s;
+}
+#sec-1d34.nav-sticky .u-logo-image-1 {
+    width: 88%;
+
 }
 @keyframes goDown {
     from {
