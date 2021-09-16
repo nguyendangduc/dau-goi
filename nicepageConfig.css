@@ -1,0 +1,8 @@
+@media (max-width:320px) {
+    .u-sheet {
+        width:300px;
+    }
+    section > * {
+        width:300px !important;
+    }
+}
