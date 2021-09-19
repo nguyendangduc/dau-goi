@@ -103,3 +103,9 @@
     } 
     
 }
+/* =================footer =========== */
+#sec-e83e {
+    background-image: url(./images/footer-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
