@@ -9,3 +9,9 @@
 #sec-1d34 .u-nav-item.active a {
     color: rgb(132, 204, 49) !important;
 }
+#sec-1d34 .u-nav-item > a {
+    transition: 0.1s;
+}
+#sec-1d34 .u-nav-item:hover> a {
+    color: rgb(132, 204, 49) !important;
+}
