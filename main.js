@@ -150,3 +150,71 @@ $(function () {
 
   });
 });
+
+
+
+
+// const showBtn = document.querySelector(".header__menu-btn--show")
+// const closeBtn = document.querySelector(".header__menu-btn--close")
+// const subMenu = document.querySelector(".header__menu-content")
+// const scrollTopBtn = document.querySelector(".f-btn.f-btn-scroll-top")
+// const listMenu = document.querySelectorAll(".header__menu-content .content-body ul li a")
+// const menu = document.querySelector(".header__menu-content .content-body ul")
+// showBtn.addEventListener("click",function(event) {
+//     subMenu.classList.add("go-left")
+
+
+// })
+// subMenu.addEventListener("click",function(event) {
+//     subMenu.classList.remove("go-left")
+
+
+// })
+
+// window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+//     scrollTopBtn.classList.remove("hidden")
+//   } else {
+//     scrollTopBtn.classList.add("hidden")
+
+//   }
+// }
+
+// scrollTopBtn.addEventListener("click",function(event) {   
+//   window.scroll({
+//     top: 0, 
+//     left: 0, 
+//     behavior: 'smooth' 
+//    });
+    
+// })
+
+// listMenu.forEach(item => {
+//   item.addEventListener("click",function(event) { 
+//     event.preventDefault();
+//     const idSection = event.target.getAttribute("href");
+//     const offset = document.querySelector(idSection).offsetTop - 78
+//     window.scroll({
+//       top: offset, 
+//       left: 0, 
+//       behavior: 'smooth' 
+//      });
+//   })
+// })
+
+// menu.addEventListener("click", (e) => {
+//   const element = e.target
+// event.preventDefault()
+//   const idSection = element.getAttribute("href")
+//   const offset = document.querySelector(idSection).offsetTop - 0
+//   window.scroll({
+//     top:offset, 
+//     left: 0, 
+//     behavior: 'smooth'
+//   })
+// })
+
+
+
